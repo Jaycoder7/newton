@@ -20,7 +20,7 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-roof = new Roof(700,20,600,20);
+roof = new Roof(400,20,600,20);
 
 bob1 = new Bob(100,100,25);
 bob2 = new Bob(50,100,25);
