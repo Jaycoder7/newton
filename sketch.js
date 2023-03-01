@@ -42,7 +42,7 @@ rope5 = new Rope(bob5.body,roof.body,(bob5.body.position.x * (-1) +0),0)
 
 function keyPressed(){
 if(keyCode===32){
-  Matter.Body.applyForce(bob5.body, bob5.body.position, {x:-200,y:0})
+  Matter.Body.applyForce(bob5.body, bob5.body.position, {x:-100,y:0})
 
 }
 
